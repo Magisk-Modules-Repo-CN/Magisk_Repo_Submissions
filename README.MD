@@ -1,5 +1,5 @@
 # Magisk Repo Submissions
-这是开发人员向 [Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo) 提交他们的 Magisk 模块的地方。
+用于开发者向 [Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo) 提交 Magisk 模块。
 
 ## 指南:
 1. 请先阅读[完整文档](https://github.com/Magisk-Modules-Repo/Magisk/blob/master/docs/README.MD)。 您应该对 Magisk 和 "git" 都有足够的了解，以便进行提交。
