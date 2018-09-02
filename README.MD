@@ -1,19 +1,19 @@
 # Magisk Repo Submissions
-This is the place for developers to submit their Magisk Module to the [Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo).
+这是开发人员向 [Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo) 提交他们的 Magisk 模块的地方。
 
-## Instructions:
-1. Please read the [full documentation](https://github.com/topjohnwu/Magisk/blob/master/docs/README.MD). You are expected to have decent knowledge to both Magisk and `git` in order to do a submission
-2. Create a new Github repository in your personal account, and push your module files to the repo. If you do not want to start from scratch, start with forking or cloning the [magisk-module-template](https://github.com/topjohnwu/magisk-module-template) and add your files there
-3. **Only the `master` branch will be visible to the user!** If you are using the module template, you have to manually create the `master` branch. **Submissions with no `master` branch will not be accepted!**
-4. File a request by [creating an issue](https://github.com/topjohnwu/Magisk_Repo_Submissions/issues/new). The rules and format are detailed in the next section.
-5. A collaboration invitation will be sent to your email, please accept it so you have permissions to update your repo. **You should update your module directly to the repo on [Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo), NOT your personal repo!** Once your repo is cloned to the online repo, you can delete the one on your account, since it will not be used anymore.
-6. Once you finished upgrading your repo, increase the `versionCode` in `module.prop`. Magisk Manager compare this value with the local installed module to determine whether an update is available.
+## 指南:
+1. 请先阅读[完整文档](https://github.com/Magisk-Modules-Repo/Magisk/blob/master/docs/README.MD)。 您应该对 Magisk 和 "git" 都有足够的了解，以便进行提交。
+2. 在您的 Github 帐号中新建一个 repo ，上传您模块的文件到 repo 。 如果不想从头开始，那么请 fork 或 clone [Magisk 模块模板]（https://github.com/Magisk-Modules-Repo/magisk-module-template），并在那里添加文件。
+3. **只有 `master` 分支对用户可见！** 如果您选择使用模块模板, 您必须手动创建 `master` 分支. **没有 `master` 分支的提交是不被允许的**
+4. 通过 [创建一个 issue](https://github.com/Magisk-Modules-Repo/Magisk_Repo_Submissions/issues/new) 提交一个请求。 规则和格式将在下一节中详细说明。
+5. 合作邀请将被发送到您的电子邮箱，请接受它，以便您有权限更新您的模块 repo 。 **您应该在 [Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo) 上更新您的模块, 而不是您自己的 repo ！** 如果您的 repo 被 clone ，您可以删除自己 Github 帐号中的 repo ，因为它将不再被使用。
+6. 当您升级您的 repo 完成后，请递增 `module.prop` 中的 `versionCode` 项。 Magisk Manager 将此值与本地安装的模块进行比较，以确定是否有可用更新。
 
-## Format of Requests
-All requests are done through issues and handled automatically by a small server (the code is available in this repo). Currently you have two actions availible:
+## 请求格式
+所有的请求都是通过 issues 完成的，并通过一个服务器进行处理 (代码在这个 repo 中)。您可以进行两个操作：
 
-#### Submission:
-Create a new issue and start the title with **`[Submission]`**, then provide a link to **your module's repository**.
+#### 提交：
+创建一个新的 issue，标题以 **`[Submission]`** 开头, 然后提供一个链接到 **您的 repo**。
 
-#### Removal:
-If you decide to remove a module from the online repo, create a new issue and start the title with **`[Removal]`**, then provide the link to **your repository on [Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo)**.
+#### 移除:
+如果您决定从在线 repo 中删除您的模块, 创建一个新的 issue ，标题以  **`[Removal]`** 开头, 然后提供一个链接到 **您在 [Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo) 上的 repo**。
