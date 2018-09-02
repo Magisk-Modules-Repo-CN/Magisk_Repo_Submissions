@@ -3,7 +3,8 @@
 
 ## 指南:
 1. 请先阅读[完整文档](https://github.com/Magisk-Modules-Repo/Magisk/blob/master/docs/README.MD)。 您应该对 Magisk 和 "git" 都有足够的了解，以便进行提交。
-2. 在您的 Github 帐号中新建一个 repo ，上传您模块的文件到 repo 。 如果不想从头开始，那么请 fork 或 clone [Magisk 模块模板](https://github.com/Magisk-Modules-Repo/magisk-module-template)，并在那里添加文件。
+2. 在您的 Github 帐号中新建一个 repo ，上传您模块的文件到 repo 。 如果不想从头开始，那么请 fork 或 clone [Magisk 模块模板](https://github.com/topjohnwu/magisk-module-template)，并在那里添加文件。
+*[Magisk 模块模板(汉化版)](https://github.com/Magisk-Modules-Repo-CN/magisk-module-template)
 3. **只有 `master` 分支对用户可见！** 如果您选择使用模块模板, 您必须手动创建 `master` 分支. **没有 `master` 分支的提交是不被允许的**
 4. 通过 [创建一个 issue](https://github.com/Magisk-Modules-Repo/Magisk_Repo_Submissions/issues/new) 提交一个请求。 规则和格式将在下一节中详细说明。
 5. 合作邀请将被发送到您的电子邮箱，请接受它，以便您有权限更新您的模块 repo 。 **您应该在 [Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo) 上更新您的模块, 而不是您自己的 repo ！** 如果您的 repo 被 clone ，您可以删除自己 Github 帐号中的 repo ，因为它将不再被使用。
